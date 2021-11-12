@@ -1,0 +1,1121 @@
+/*******************************/
+/********* General CSS *********/
+/*******************************/
+
+.fadein {
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 4s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.equal {
+  display: flex;
+  display: -webkit-flex;
+  flex-wrap: wrap;
+}
+
+:root {
+  --primary-dark: #23408f;
+  --primary-light: #4bbca9;
+  --text-light: #434E61;
+  --text-dark: #000328;
+  --white: #ffffff;
+  --accent: #fff200;
+}
+
+body {
+    color: var(--text-light);
+    background: var(--white);
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color:  var(--text-dark);
+}
+
+a {
+    color: var(--primary-dark);
+    transition: .3s;
+}
+
+a:hover,
+a:active,
+a:focus {
+    color: var(--primary-light);
+    outline: none;
+    text-decoration: none;
+}
+
+.btn:focus,
+.form-control:focus {
+    box-shadow: none;
+}
+
+.container-fluid {
+    max-width: 2000px;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #F7CAC9;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 22px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+    z-index: 9;
+}
+
+.back-to-top:hover {
+    background: #343148;
+}
+
+.back-to-top:hover i {
+    color: #F7CAC9;
+}
+
+.back-to-top i {
+    color: #343148;
+    padding-top: 10px;
+}
+
+
+
+/**********************************/
+/*********** Nav Bar CSS **********/
+/**********************************/
+.navbar {
+    position: relative;
+    transition: .5s;
+    z-index: 999;
+}
+
+.navbar.nav-sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+}
+
+.navbar .navbar-brand {
+    margin: 0;
+    color: var(--white);
+    font-size: 45px;
+    line-height: 0px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: .5s;
+
+}
+
+.navbar .navbar-brand span {
+    color: var(--white);
+    transition: .5s;
+}
+
+.navbar.nav-sticky .navbar-brand span {
+    color: var(--white);
+}
+
+.navbar .navbar-brand img {
+    max-width: 100%;
+    max-height: 40px;
+}
+
+.navbar-dark .navbar-nav .nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    padding: 10px 10px 8px 10px;
+    color: var(--white);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    background: rgba(256, 256, 256, .1);
+    transition: none;
+}
+
+.navbar .dropdown-menu {
+    margin-top: 0;
+    border: 0;
+    border-radius: 0;
+    background: #f8f9fa;
+}
+
+@media (min-width: 992px) {
+    .navbar {
+        position: absolute;
+        width: 100%;
+        top: 0px;
+        padding: 20px 60px;
+        background: rgb(35, 64, 143, .8) !important;
+        z-index: 9;
+    }
+
+    .navbar.nav-sticky {
+        padding: 10px 60px;
+        background: var(--primary-dark) !important;
+    }
+
+    .navbar a.nav-link {
+        padding: 8px 15px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        padding: 15px;
+        background: var(--primary-dark) !important;
+    }
+
+    .navbar .navbar-brand span {
+        color: #ffffff;
+    }
+
+    .navbar a.nav-link {
+        padding: 5px;
+    }
+
+    .navbar .dropdown-menu {
+        box-shadow: none;
+    }
+}
+
+
+/*******************************/
+/********** intro CSS ***********/
+/*******************************/
+.intro {
+    position: relative;
+    width: 100%;
+    margin-bottom: 45px;
+    margin-top: 35px;
+    padding: 20px 0;
+    background: var(--white)/*rgba(75, 188, 169,0.2);*/
+    overflow: hidden;
+}
+
+.intro .container-fluid {
+    padding: 1;
+}
+
+.intro .intro-image {
+    position: relative;
+    text-align: right;
+}
+
+.intro .intro-image img {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.intro .intro-text {
+    position: relative;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.intro .intro-text h1 {
+    color: #343148;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.intro .intro-text p {
+    color: #343148;
+    font-size: 18px;
+    margin-bottom: 25px;
+    margin-right: 5px;
+}
+
+
+
+@media (max-width: 991.98px) {
+    .intro .intro-text {
+        padding: 0 15px;
+    }
+
+    .intro .intro-text h1 {
+        font-size: 35px;
+    }
+
+    .intro .intro-text p {
+        font-size: 16px;
+    }
+
+    .intro .intro-text .btn {
+        padding: 12px 30px;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .intro .intro-text h1 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .intro .intro-text p {
+        font-size: 14px;
+    }
+
+    .intro .intro-text .btn {
+        padding: 10px 15px;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .intro .intro-text h1 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+    .intro .intro-text p {
+        font-size: 14px;
+    }
+
+    .intro .intro-text .btn {
+        padding: 8px 10px;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}
+
+
+
+/*******************************/
+/********** Button CSS ***********/
+/*******************************/
+
+.generic-btn .btn {
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--white);
+    background: var(--primary-dark);
+    border-radius: 0;
+    transition: .3s;
+}
+
+.generic-btn .btn:hover {
+    color: var(--primary-dark);
+    background: rgb(35, 64, 143, .09);
+}
+
+.generic-btn .btn {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+/*******************************/
+/******* Empty Header CSS *******/
+/*******************************/
+.empty-page-header {
+    position: relative;
+    margin-bottom: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    background: var(--white);
+}
+
+
+
+/*******************************/
+/******* Page Header CSS *******/
+/*******************************/
+.page-header {
+    position: relative;
+    margin-bottom: 45px;
+    padding: 150px 0 90px 0;
+    text-align: center;
+    background: #F7CAC9;
+}
+
+.page-header h2 {
+    position: relative;
+    color: #343148;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.page-header a {
+    position: relative;
+    padding: 0 12px;
+    font-size: 22px;
+    color: #343148;
+}
+
+.page-header a:hover {
+    color: #ffffff;
+}
+
+.page-header a::after {
+    position: absolute;
+    content: "/";
+    width: 8px;
+    height: 8px;
+    top: -2px;
+    right: -7px;
+    text-align: center;
+    color: #343148;
+}
+
+.page-header a:last-child::after {
+    display: none;
+}
+
+@media (max-width: 767.98px) {
+    .page-header h2 {
+        font-size: 35px;
+    }
+
+    .page-header a {
+        font-size: 18px;
+    }
+}
+
+
+/*******************************/
+/******* Section Header ********/
+/*******************************/
+.section-header {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.section-header p {
+    display: inline-block;
+    margin: 0 30px;
+    margin-bottom: 5px;
+    padding: 0 10px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    background: #ffffff;
+}
+
+.section-header p::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    top: 11px;
+    right: -30px;
+    left: -30px;
+    background: var(--primary-light);
+    z-index: -1;
+}
+
+.section-header h2 {
+    margin: 0;
+    position: relative;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+    .section-header h2 {
+        font-size: 30px;
+    }
+}
+/*******************************/
+/********** Demo CSS **********/
+/*******************************/
+.demo {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.demo p {
+text-align: center;
+color: var(--text-light);
+}
+
+.demo  .video {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+/*******************************/
+/********** Data CSS **********/
+/*******************************/
+.data {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.data p {
+text-align: center;
+color: var(--text-light);
+}
+
+.data .data-item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-top: 1px solid rgba(0, 0, 0, .07);
+    border-left: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.data .data-item:hover,
+.data .data-item.active {
+    background: rgb(35, 64, 143, .09);
+}
+
+.data .data-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.data .data-item p {
+  text-align: left;
+    margin: 0;
+    font-size: 16px;
+}
+/*******************************/
+/********** Other CSS **********/
+/*******************************/
+.other {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.other p {
+text-align: center;
+color: var(--text-light);
+}
+
+.other .other-item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border-top:  1px solid rgba(0, 0, 0, .07);
+    border-right:  1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.other .other-item:hover,
+.other .other-item.active {
+    background: rgb(35, 64, 143, .09);
+}
+
+.other .other-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.other .other-item p {
+  text-align: left;
+    margin: 0;
+    font-size: 16px;
+}
+/*******************************/
+/********** Publications CSS **********/
+/*******************************/
+.publications {
+    position: relative;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.publications p {
+text-align: center;
+}
+
+.publications .table {
+    position: relative;
+    width: 100%;
+    color: var(--text-dark) !important
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.publications .table p {
+    color: var(--text-light);
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+
+/*******************************/
+/********** About CSS **********/
+/*******************************/
+.about {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.about .section-header {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 0;
+}
+
+.about .about-img {
+    position: relative;
+    height: 100%;
+}
+
+.about .about-img img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .about-text p {
+    font-size: 16px;
+}
+
+
+@media (max-width: 767.98px) {
+    .about .about-img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+}
+
+
+/*******************************/
+/********* wp CSS *********/
+/*******************************/
+.wp {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.wp .wp-item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.wp .wp-item:hover {
+    background: var(--primary-dark);
+    color: var(--white);
+}
+
+.wp .wp-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.wp .wp-icon img {
+    position: relative;
+    font-size: 50px;
+    z-index: 3;
+    width: 80px;
+    height: 80px;
+}
+
+.wp .wp-icon:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--primary-light);
+    border-radius: 0%;
+    animation: pulse-border 2000ms ease-out infinite;
+}
+
+.wp .wp-icon:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 80px;
+    height: 80px;
+    background: var(--primary-light);
+    border-radius: 0%;
+    transition: all 200ms;
+}
+
+@keyframes pulse-border {
+  0% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.3);
+    opacity: 0;
+  }
+}
+
+.wp .wp-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.wp .wp-item:hover h3,
+.wp .wp-item.active h3 {
+    color: var(--white);
+}
+
+.wp .wp-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+
+
+/*******************************/
+/*********** cards flip CSS **********/
+/*******************************/
+
+:root {
+  --time: 0.707s;
+}
+
+
+.cards {
+  display: grid;
+}
+
+.card {
+  perspective: 30rem;
+  padding: 0px 0px 0px 0px;
+}
+
+.card-body {
+  display: flex;
+  transform-style: preserve-3d;
+  transition: var(--time) transform;
+}
+
+.card-body:hover{
+    cursor: pointer;
+}
+
+.card.is-flipped .card-body {
+  transform: rotateX(-180deg);
+}
+.card.is-flipped {
+  transition-delay: 0s;
+  z-index: 1;
+}
+
+
+.card-front, .card-back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  min-width: 100%;
+}
+
+.card-back {
+  transform: rotateX(-180deg) translate(-100%, 0);
+}
+
+.cards {
+  grid-gap: 0.1rem;
+  grid-auto-rows: 1fr;
+  padding: 0.1rem;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+}
+
+.card {
+  display: flex;
+  transition: z-index, transform calc(var(--time) / 4);
+  transition-delay: var(--time), 0s;
+  text-decoration: none;
+  color: inherit;
+  z-index: 0;
+  border: none;
+}
+
+.card-body {
+  border-radius: 0.25rem;
+  flex: 1;
+}
+
+.card-front, .card-back {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 1.5rem;
+  border-radius: 0.25rem;
+}
+
+.card-front {
+  align-items: center;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-self: center;
+}
+
+.shadow, .card-front, .card-back {
+  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04), 0 16px 16px rgba(0, 0, 0, 0.04);
+}
+
+.card-front img
+{
+    border-radius: 50%;
+}
+
+.card-front,.card-back  h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card-front h5 {
+    margin-bottom: 10px;
+}
+
+.card-front p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: var(--text-light)
+}
+.card-back p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: var(--text-light)
+}
+
+/*  box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.04), 0 2px 2px rgba(0, 0, 0, 0.04), 0 4px 4px rgba(0, 0, 0, 0.04), 0 8px 8px rgba(0, 0, 0, 0.04), 0 16px 16px rgba(0, 0, 0, 0.04);*/
+
+
+/*******************************/
+/*********** Team CSS **********/
+/*******************************/
+
+
+.team {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+
+/*******************************/
+/*********** news CSS **********/
+/*******************************/
+.news {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.news .news-carousel {
+    position: relative;
+    width: calc(100% + 30px);
+    left: -15px;
+    right: -15px;
+}
+
+.news .news-item-carousel {
+    position: relative;
+    margin: 0 15px;
+}
+
+.news .news-page .news-item-carousel {
+    margin: 0 0 0px 0;
+}
+
+.news .news-img {
+    position: relative;
+    width: 100%;
+}
+
+.news .news-img img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.news .news-item{
+  border-bottom: 1px solid rgba(0, 0, 0, .07);
+}
+
+.news .news-item:hover{
+  background: rgb(35, 64, 143, .09);
+}
+
+.news .news-text{
+    position: relative;
+    padding: 25px 30px;
+}
+
+.news .news-text h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.news .news-text p {
+    margin-bottom: 10px;
+}
+
+.news-text-carousel {
+  border-right: 1px solid rgba(0, 0, 0, .07);
+  border-bottom: 1px solid rgba(0, 0, 0, .07);
+  border-left: 1px solid rgba(0, 0, 0, .07);
+  border-top: 1px solid rgba(0, 0, 0, .07);
+}
+
+.news .news-text-carousel {
+    position: relative;
+    padding: 25px 30px;
+}
+
+.news .news-text-carousel h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.news .news-text-carousel p {
+    margin-bottom: 10px;
+}
+
+.news .news-item-carousel a.btn {
+    padding: 0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-dark);
+    transition: .3s;
+}
+
+.news .news-item-carousel:hover{
+  background: rgb(35, 64, 143, .09);
+}
+
+.news .news-item-carousel a.btn i {
+    margin-left: 5px;
+}
+
+.news .news-item-carousel a.btn:hover {
+    color: var(--primary-light);
+}
+
+.news .news-meta {
+    position: relative;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.news .news-meta p {
+    margin: 0 10px 0 0;
+    font-size: 13px;
+}
+
+.news .news-meta i {
+    margin-right: 5px;
+}
+
+.news .news-meta p:last-child {
+    margin: 0;
+}
+
+.news .owl-nav {
+    width: 150px;
+    margin: 32px auto 0 auto;
+    display: flex;
+}
+
+.news .owl-nav .owl-prev,
+.news .owl-nav .owl-next {
+    margin-left: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    background: var(--primary-dark);
+    font-size: 22px;
+    transition: .3s;
+}
+
+.news .owl-nav .owl-prev:hover,
+.news .owl-nav .owl-next:hover {
+  color: var(--primary-dark);
+  background: rgb(35, 64, 143, .09);
+}
+
+
+/*******************************/
+/********* Contact CSS *********/
+/*******************************/
+.contact {
+    position: relative;
+    width: 100%;
+    padding: 45px 0 15px 0;
+}
+
+.contact .contact-item {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, .07);
+    transition: .3s;
+}
+
+.contact .contact-item:hover,
+.contact .contact-item.active {
+    background: var(--primary-dark);
+    color: var(--white);
+}
+
+.contact .contact-icon {
+    position: relative;
+    margin: 0 auto 25px auto;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.contact .contact-icon img {
+    position: relative;
+    font-size: 50px;
+    z-index: 3;
+    width: 80px;
+    height: 80px;
+}
+
+.contact .contact-item h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.contact .contact-item:hover h3,
+.contact .contact-item.active h3 {
+    color: var(--white);
+}
+
+.contact .contact-item:hover a,
+.contact .contact-item.active a {
+    color: var(--primary-light);
+}
+
+.contact .contact-item:hover .contact-icon img {
+filter: brightness(0) invert(1);
+}
+
+
+.contact .contact-item p {
+    margin: 0;
+    font-size: 16px;
+}
+.contact  p {
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+/*******************************/
+/********* Footer CSS **********/
+/*******************************/
+.foot-text{
+margin-top: 30px;
+}

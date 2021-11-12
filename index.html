@@ -1,28 +1,198 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-	<head>
-		<title>Example html page</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:blablabla129740@gmail.com">email</a></li>
-        		<li><a href="https://github.com/">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <title>EmotionAI</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <!--<meta content="some keywords?" name="keywords">-->
+    <meta content="EmotionAI project website" name="description">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS Libs -->
+    <!-- Not sure if all useful -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Main stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="flex-wrapper">
+    <!-- Maybe a topbar? But doesn't seem that useful...-->
+
+    <!-- Navbar Start -->
+  <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container-fluid">
+          <a href="index.html" class="navbar-brand">Emotion<span>AI</span></a>
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+              <div class="navbar-nav ml-auto">
+                  <a href="index.html" class="nav-item nav-link active">Home</a>
+                  <a href="research.html" class="nav-item nav-link">Research</a>
+                  <a href="team.html" class="nav-item nav-link">Team</a>
+                  <a href="news.html" class="nav-item nav-link">News</a>
+                  <a href="contact.html" class="nav-item nav-link">Contact</a>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- Nav Bar End -->
+
+  <!-- Page Header Start -->
+  <div class="empty-page-header">
+
+  </div>
+  <!-- Page Header End -->
+  <!-- intro Start -->
+
+  <div class="intro">
+      <div class="container-fluid">
+          <div class="row align-items-center">
+              <div class="col-sm-6 col-md-6  wow fadeInUp" data-wow-delay="0.1s">
+                  <div class="intro-image">
+                      <img src="img/intro.png" alt="intro Image">
+                  </div>
+              </div>
+              <div class="col-sm-6 col-md-6  wow fadeInUp" data-wow-delay="0.2s">
+                  <div class="intro-text">
+                      <h1>EmotionAI Project </h1>
+                      <p>
+                      Short description of how cool our project is and why it is important.... <br>
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin, nulla non efficitur sollicitudin, nisi velit iaculis dui, at sollicitudin nulla nulla eget dolor. Curabitur non lorem ac urna convallis lobortis eget non nisi. Quisque dignissim sapien non orci cursus, id facilisis turpis facilisis. Cras turpis nibh, lacinia et nisl suscipit, lacinia tempus elit.
+                      </p>
+                      <div class="generic-btn">
+                          <a class="btn wow fadeInUp" data-wow-delay="0.4s" href="research.html">Learn more</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- intro End -->
+
+  <!-- About Start -->
+  <div class="about wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container-fluid">
+          <div class="row align-items-center">
+
+              <div class="col-lg-7 col-md-6">
+                  <div class="section-header text-left wow zoomIn" data-wow-delay="0.2s">
+                      <p>About Us</p>
+                      <h2>EmotionAI project team</h2>
+                  </div>
+                  <div class="about-text wow fadeInUp" data-wow-delay="0.3s">
+                      <p>
+                        We are a group of multi-disciplinary researchers working on the emotional intelligence to improve understanding of the significance of emotions in the context of interactions and collaborations. We are based at the Center for Machine Vision and Signal Analysis (CMVS), University of Oulu.
+                      </p>
+                      <div class="generic-btn">
+                      <a class="btn wow fadeInUp" data-wow-delay="0.5s" href="team.html">Our team</a>
+                      <a class="btn wow fadeInUp" data-wow-delay="0.7s" href="https://www.oulu.fi/cmvs/">CMVS</a>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-5 col-md-6">
+                  <div class="about-img">
+                      <img src="img/teampic.png" alt="Image">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- About End -->
+
+  <!-- news Start -->
+  <!-- maybe just put lates 5-6 news-->
+
+  <div class="news">
+      <div class="container-fluid">
+          <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
+              <p>News</p>
+              <h2>Latest updates</h2>
+          </div>
+          <div class="owl-carousel news-carousel wow fadeInUp align-self-center" data-wow-delay="0.1s">
+              <div class="news-item-carousel">
+                  <div class="news-text-carousel">
+                      <h2>News5</h2>
+                      <div class="news-meta">
+                          <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                      </p>
+                      <a class="btn" href="news.html#news5">Read More <i class="fa fa-angle-right"></i></a>
+                  </div>
+              </div>
+              <div class="news-item-carousel">
+                  <div class="news-text-carousel">
+                      <h2>News4</h2>
+                      <div class="news-meta">
+                          <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                      </p>
+                      <a class="btn" href="news.html#news4">Read More <i class="fa fa-angle-right"></i></a>
+                  </div>
+              </div>
+              <div class="news-item-carousel">
+                  <div class="news-text-carousel">
+                      <h2>News3</h2>
+                      <div class="news-meta">
+                          <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                      </p>
+                      <a class="btn" href="news.html#news3">Read More <i class="fa fa-angle-right"></i></a>
+                  </div>
+              </div>
+              <div class="news-item-carousel">
+                  <div class="news-text-carousel">
+                      <h2>News2</h2>
+                      <div class="news-meta">
+                          <p><i class="far fa-calendar-alt"></i>01-Jan-2045</p>
+                      </div>
+                      <p>
+                          Lorem ipsum dolor sit amet elit. Neca pretim miura bitur facili ornare velit non vulpte liqum metus tortor
+                      </p>
+                      <a class="btn" href=news.html#news2>Read More <i class="fa fa-angle-right"></i></a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <!-- news End -->
+
+
+  <!-- Footer -->
+</div>
+  <footer class="page-footer font-small black  wow fadeInUp" data-wow-delay="0.2s">
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">
+      <p class="foot-text">© 2021 Copyright</p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+  <!-- JavaScript Libs -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+  <!-- Main Javascript -->
+  <script src="js/main.js"></script>
+  </body>
 </html>
