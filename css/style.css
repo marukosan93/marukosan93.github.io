@@ -53,7 +53,7 @@
 
 .flex-wrapper {
   display: flex;
-  min-height: 100vh;
+  min-height: 90vh;
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -749,6 +749,11 @@ text-align: center;
 
 .cards {
   display: grid;
+}
+
+.card .img-fluid {
+  max-width: 256px;
+  padding-bottom: 5px;
 }
 
 .card {
