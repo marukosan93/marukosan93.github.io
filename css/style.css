@@ -510,6 +510,13 @@ text-align: center;
 color: var(--text-light);
 }
 
+.demo h5 {
+text-align: center;
+color: var(--text-dark);
+}
+
+
+
 .demo  .video {
   display: flex;
 align-items: center;
