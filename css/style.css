@@ -280,6 +280,7 @@ a:focus {
     position: relative;
     padding-left: 75px;
     padding-right: 75px;
+    margin-top: 10px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -652,6 +653,7 @@ text-align: center;
 }
 
 .about .about-img {
+    margin-top: 10px;
     position: relative;
     height: 100%;
 }
