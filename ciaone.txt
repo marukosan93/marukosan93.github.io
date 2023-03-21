@@ -1,0 +1,1000 @@
+  997  sudo apt install brave-browser
+  998  gpustat
+  999  puhtisshfs 
+ 1000  pdl
+ 1001  python train_autoid.py 
+ 1002  pip install ConfigParser
+ 1003  python train_autoid.py 
+ 1004  python train_autoid.py ./configs/autoid_pure_gnet_1.ini 
+ 1005  nvidia-smi 
+ 1006  reboot 
+ 1007  gpustat
+ 1008  nvidia-smi
+ 1009  gpustat
+ 1010  nvidia-smi
+ 1011  sudo apt install nvidia-utils-525
+ 1012  nvidia-smi 
+ 1013  sudo apt install nvidia-driver-525
+ 1014  nvidia-smi 
+ 1015  sudo init 3
+ 1016  sudo apt install nvidia-driver-525 nvidia-dkms-525
+ 1017  sudo reboot 
+ 1018  nvidia-
+ 1019  nvidia-smi 
+ 1020  puhtisshfs 
+ 1021  gedit git_token_feb2023.txt
+ 1022  git clone https://github.com/marukosan93/marukosan93.github.io
+ 1023  cd marukosan93.github.io/
+ 1024  git add ..
+ 1025  git add .
+ 1026  git commit -m "new commit"
+ 1027  git config --global user.name "marukosan93"
+ 1028  git commit -m "new commit"
+ 1029  git config --global user.name "marukosan93"
+ 1030  git commit -m "new commit"
+ 1031  git commit -m "update1 Feb2023"
+ 1032  git add .
+ 1033  git commit -m "update1 Feb2023"
+ 1034  git push -u origin master 
+ 1035  git add .
+ 1036  git commit -m "update2 Feb2023"
+ 1037  git push -u origin master 
+ 1038  pdl
+ 1039  python vidtest_auto
+ 1040  python vidtest_autoidrppg.py 
+ 1041  cd ..
+ 1042  python crop_faces_PURE.py 
+ 1043  cd 2_0_Deid/
+ 1044  python create_rppg_folds_PURE.py 
+ 1045  python train_idnet_3d.py googlenet pure
+ 1046  python create_rppg_folds_PURE.py 
+ 1047  python train_idnet_3d.py googlenet pure
+ 1048  python create_rppg_folds_PURE.py 
+ 1049  python train_idnet_3d.py googlenet pure
+ 1050  python train_idnet_3d.py resnet pure
+ 1051  python train_idnet_3d.py densenet pure
+ 1052  nvidia-smi
+ 1053  pdl
+ 1054  pyton
+ 1055  python
+ 1056  pdl 
+ 1057  python load_pca_id.py 
+ 1058  python load_pca_id.py pure
+ 1059  pdl
+ 1060  python feat_idnet_3d.py googlenet pure None
+ 1061  python feat_idnet_3d.py resnet pure None
+ 1062  python feat_idnet_3d.py densenet pure None
+ 1063  python feat_idnet_3d.py densenet pure autoenc_id_puhti_2
+ 1064  python feat_idnet_3d.py densenet pure autoenc_id_puhti_2.pt
+ 1065  python feat_idnet_3d.py densenet pure autoenc_id_puhti_2
+ 1066  python feat_idnet_3d.py densenet pure autoenc_id_puhti_2.pt 
+ 1067  pdl
+ 1068  python train_idnet_3d.py 
+ 1069  python train_idnet_3d.py googlenet pure
+ 1070  puhtisshfs 
+ 1071  history 
+ 1072  tar cvfz 2deid.tar.gz 2_0_Deid/
+ 1073  shutdown -c
+ 1074  scp 2deid.tar.gz "marukosan@cse200222.oulu.fi:/mnt/sdb1/"
+ 1075  ssh-keygen -R cse200222.oulu.fi
+ 1076  scp 2deid.tar.gz "marukosan@cse200222.oulu.fi:/mnt/sdb1/"
+ 1077  history 
+ 1078  shutdown -P 40
+ 1079  cd ..
+ 1080  puhtisshfs 
+ 1081  gpusshfs 
+ 1082  cp "msavic21@cse200222.oulu.fi:/var/log/syslog" /home/chiarko/Desktop/
+ 1083  scp "msavic21@cse200222.oulu.fi:/var/log/syslog" /home/chiarko/Desktop/
+ 1084  ssh msavic21@cse200222.oulu.fi
+ 1085  ssh-keygen -R "msavic21@cse200222.oulu.fi"
+ 1086  ssh-keygen -R msavic21@cse200222.oulu.fi
+ 1087  ssh msavic21@cse200222.oulu.fi
+ 1088  scp "marukosan@cse200222.oulu.fi:/var/log/syslog" /home/chiarko/Desktop/
+ 1089  scp "marukosan@cse200222.oulu.fi:/var/log/syslog.1" /home/chiarko/Desktop/
+ 1090  history 
+ 1091  scp 2deid.tar.gz "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace"
+ 1092  cd ..
+ 1093  gpusshfs 
+ 1094  cd ..
+ 1095  cd ./~bashrc
+ 1096  sudo nano ~./bashrc
+ 1097  sudo nano ~/.bashrc
+ 1098  alias gpusshfs="sshfs "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace/" /home/chiarko/GPU_PC/"
+ 1099  alias gpusshfs_HDD="sshfs "marukosan@cse200222.oulu.fi:/mnt/sdb1/" /home/chiarko/GPU_PC_HDD/"
+ 1100  gpusshfs_HDD 
+ 1101  gpusshfs
+ 1102  gpustat
+ 1103  pdl
+ 1104  gpustat
+ 1105  sudo apt install gpustat
+ 1106  gpustat
+ 1107  nvidia-smi
+ 1108  pdl
+ 1109  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 
+ 1110  scp 2deid.tar.gz "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace"
+ 1111  gpustat
+ 1112  git add .
+ 1113  git commit -m "added qianru update"
+ 1114  history 
+ 1115  git push -u origin master
+ 1116  git add .
+ 1117  git commit -m "removed caching"
+ 1118  git push -u origin master
+ 1119  pdl
+ 1120  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 
+ 1121  nvidia-smi 
+ 1122  gpustat
+ 1123  gedit run_tests.sh
+ 1124  pdl
+ 1125  python 2D_autoenc.py 
+ 1126  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 
+ 1127  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 0.03 0 
+ 1128  chmod +x run_tests.sh 
+ 1129  screen -S 
+ 1130  screen -S ciao
+ 1131  screen -r
+ 1132  git add .
+ 1133  git commit -m "changed authors"
+ 1134  git push -u origin master
+ 1135  gedit notes.txt
+ 1136  pdl
+ 1137  ./run_tests.sh 
+ 1138  gpustat
+ 1139  pdl
+ 1140  python 2D_autoenc_gan.py 
+ 1141  ./run_tests.sh 
+ 1142  pdl
+ 1143  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.04 0
+ 1144  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 0 0
+ 1145  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.04 0
+ 1146  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 0 0
+ 1147  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.04 0
+ 1148  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -1 0
+ 1149  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1 0
+ 1150  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1 
+ 1151  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -1 -1
+ 1152  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1 -1
+ 1153  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.5 -0.5
+ 1154  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.5 0
+ 1155  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.2 0
+ 1156  gpustat
+ 1157  gedit stargan.py
+ 1158  python 2D_stargan.py 
+ 1159  pdl
+ 1160  python 2D_stargan.py 
+ 1161  python 2D_stargan.py ./configs/gan_pure_2D.ini 1 0 1
+ 1162  python 2D_stargan.py ./configs/gan_pure_2D.ini ce 1 0 1
+ 1163  gpustat
+ 1164  gpustat
+ 1165  pdl
+ 1166  ./run_tests.sh 
+ 1167  gpustat
+ 1168  pdl
+ 1169  ./run_tests.sh 
+ 1170  gpustat
+ 1171  ./run_tests.sh 
+ 1172  gpusshfs
+ 1173  gpustat
+ 1174  pdl
+ 1175  ./run_tests.sh 
+ 1176  gpusshfs
+ 1177  sudo apt-get install vim
+ 1178  cd ..
+ 1179  vim
+ 1180  vim ciaone.txt
+ 1181  vim ccc.txt
+ 1182  gpusshfs
+ 1183  nvidia-smi
+ 1184  pdl
+ 1185  ./run_tests.sh 
+ 1186  sudo init 3
+ 1187  pdl
+ 1188  ./run_tests.sh 
+ 1189  gpustat
+ 1190  gpusshfs
+ 1191  cd ..
+ 1192  ls
+ 1193  cd home/
+ 1194  ls
+ 1195  cd chiarko/
+ 1196  cd Workspace/
+ 1197  cd ..
+ 1198  cd media/chiarko/
+ 1199  ls
+ 1200  cd Data/
+ 1201  ls
+ 1202  cd 2_0_Deid/
+ 1203  ls
+ 1204  ./run_tests.sh 
+ 1205  pdl
+ 1206  ./run_tests.sh 
+ 1207  sudo init 5
+ 1208  pdl
+ 1209  ./run_tests.sh 
+ 1210  pdl
+ 1211  python 3D_autoenc_crash.py 
+ 1212  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini 
+ 1213  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini 0 0 0 
+ 1214  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0 
+ 1215  tar cvfz 2deid.tar.gz 2_0_Deid/
+ 1216  gedit history.txt 
+ 1217  scp 2deid.tar.gz  "msavic21@puhti.csc.fi:/scratch/project_2001654/msavic/"
+ 1218  puhtisshfs 
+ 1219  history 
+ 1220  history >> history.txt
+ 1221  top
+ 1222  pdl
+ 1223  ls
+ 1224  pdl
+ 1225  python images_to_npy_PURE.py 
+ 1226  history 
+ 1227  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1228  python images_to_npy_PURE.py 
+ 1229  python create_rppg_folds_blocks_PURE.py 
+ 1230  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1231  python create_rppg_folds_blocks_PURE.py 
+ 1232  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1233  python create_rppg_folds_blocks_PURE.py 
+ 1234  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1235  python create_rppg_folds_PURE.py 
+ 1236  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1237  python create_rppg_folds_blocks_PURE.py 
+ 1238  python load_cropped_blocks_rppg_pure.py 
+ 1239  python create_rppg_folds_blocks_PURE.py 
+ 1240  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1241  puhtisshfs 
+ 1242  tar cvfz 2deid.tar.gz 2_0_Deid/
+ 1243  scp 2deid.tar.gz  "msavic21@puhti.csc.fi:/scratch/project_2001654/msavic/"
+ 1244  pdl
+ 1245  python 3D_autoenc_crash.py 
+ 1246  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1247  python create_rppg_folds_PURE.py 
+ 1248  python 3D_autoenc_crash.py ./configs/autoid_pure_3D.ini ce 0 0 0
+ 1249  python create_rppg_folds_blocks_PURE.py 
+ 1250  pdl
+ 1251  python train_CHROM_pure.py 
+ 1252  tar cvfz 2deid.tar.gz 2_0_Deid/
+ 1253  gedit ICME_rebuttal.txt
+ 1254  puhtisshfs 
+ 1255  puhtisshfs 
+ 1256  history 
+ 1257  sshfs "marukosan@cse200222.oulu.fi:/mnt/sdb1/" /home/chiarko/GPU_PC/
+ 1258  puhtisshfs 
+ 1259  gpusshfs
+ 1260  sshfs "marukosan@cse200222.oulu.fi:/mnt/sdb1/" /home/chiarko/GPU_PC/
+ 1261  ping 8.8.8.8
+ 1262  lsusb
+ 1263  dkms status
+ 1264  lshw -C network
+ 1265  sudo -i
+ 1266  sudo lshw -C network
+ 1267  lspci ˝~˝\@¸]¸\££\@$˝~@æ£ˇ£æˇ@~˝<1
+ 1268  ¸@£$[]{¸\ˀæ˚ø}]Œ[$£\@‚
+ 1269  U ̵+{      ¸@U£ Ø˝{@~[
+ 1270  ¨P^*
+ 1271  sudo modprobe 82579LM
+ 1272  sudo modprobe 82579lm
+ 1273  sudo modprobe 82579
+ 1274  lsusb
+ 1275  >zxcvbnm;:_äöpå^`?=`?=)(/&%¤#"#¤%`^*äö_:;klop?`^*äö;plo?)2~(u%rbv>qz(j)h=kl
+ 1276  nb nm:;:_
+ 1277  lspci | grep "Network controller"
+ 1278  sudo lshw -C network
+ 1279  puhtisshfs 
+ 1280  sudo apt update
+ 1281  sudo apt install build-essential git dkms bc
+ 1282  git clone https://github.com/brektrou/rtl8821CU.git
+ 1283  cd rtl8821CU
+ 1284  chmod +x dkms-install.sh
+ 1285  sudo ./dkms-install.sh
+ 1286  sudo modprobe 8821cu
+ 1287  puhtisshfs 
+ 1288  sudo apt-get install hardinfo
+ 1289  lsmod |grep "8821cu"
+ 1290  lsmod |grep "8821"
+ 1291  lsmod |grep
+ 1292  lsmod | grep "8821cu"
+ 1293  sudo modprobe -r 8821cu
+ 1294  cd /tmp
+ 1295  sudo ./dkms-install.sh
+ 1296  sudo modprobe 8821cu 
+ 1297  sudo apt update && sudo apt upgrade
+ 1298  sudo apt install build-essential git dkms
+ 1299  cd /tmp && git clone https://github.com/brektrou/rtl8821CU.git && cd rtl8821CU && chmod +x dkms-install.sh
+ 1300  sudo ./dkms-install.sh
+ 1301  lsusb
+ 1302  lspci -vnn | grep Network
+ 1303  lsusb 
+ 1304  cd ..
+ 1305  cd var/lib/dkms/
+ 1306  ls
+ 1307  rm -r rtl8821CU/
+ 1308  sudo rm -r rtl8821CU/
+ 1309  puhtisshfs 
+ 1310  cd /tmp && git clone https://github.com/brektrou/rtl8821CU.git && cd rtl8821CU && chmod +x dkms-install.sh
+ 1311  ls
+ 1312  rm -r rtl8821CU/
+ 1313  cd /tmp && git clone https://github.com/brektrou/rtl8821CU.git && cd rtl8821CU && chmod +x dkms-install.sh
+ 1314  sudo ./dkms-install.sh
+ 1315  sudo modprobe 8821cu 
+ 1316  gpusshfs
+ 1317  sshfs "marukosan@cse200222.oulu.fi:/mnt/sdb1/" /home/chiarko/GPU_PC/
+ 1318  sudo ./remove-driver.sh 
+ 1319  sudo kms status
+ 1320  sudo dkms status
+ 1321  sudo modprobe 8821cu 
+ 1322  pdl
+ 1323  python read_stats.py stats.txt 
+ 1324  git  pull
+ 1325  sudo ./install-driver.sh
+ 1326  sudo apt-get install iw
+ 1327  sudo ./install-driver.sh
+ 1328  sudo dkms remove rtl8821CU/5.4.1
+ 1329  sudo ./install-driver.sh
+ 1330  sudo dkms remove rtl8821CU/5.4.1
+ 1331  sudo dkms status
+ 1332  sudo dkms remove rtl8821CU/5.4.1 --all
+ 1333  sudo ./install-driver.sh
+ 1334  gpusshfs
+ 1335  sshfs "marukosan@cse200222.oulu.fi:/mnt/sdb1/" /home/chiarko/GPU_PC/
+ 1336  pdl
+ 1337  python read_stats.py stats_nohead.txt 
+ 1338  gedit spconf.sty
+ 1339  gedit ICIPref.bib
+ 1340  gedit CV_conf.txt
+ 1341  gedit notes_about_ICIP.txt
+ 1342  gedit IEEEbib.bst
+ 1343  gedit diocaneicip.txt
+ 1344  apt-get install watchdog
+ 1345  sudo apt-get install watchdog
+ 1346  systemctl disable watchdog
+ 1347  service watchdog status 
+ 1348  sudo service start watchdog
+ 1349  sudo service watchdog start
+ 1350  service watchdog status
+ 1351  sudo service watchdog stop
+ 1352  service watchdog status
+ 1353  sudo service watchdog start
+ 1354  service watchdog status
+ 1355  sudo service watchdog stop
+ 1356  sudo service watchdog start
+ 1357  sudo service watchdog status 
+ 1358  service watchdog status 
+ 1359  sudo service watchdog stop
+ 1360  service watchdog status 
+ 1361  sudo service watchdog start
+ 1362  service watchdog status 
+ 1363  service watchdog status
+ 1364  ifconfig 
+ 1365  ping 192.168.50.1
+ 1366  sudo nano watchdog 
+ 1367  cd ..
+ 1368  sudo nano watchdog.conf 
+ 1369  cd default/
+ 1370  sudo nano watchdog 
+ 1371  puhtisshfs 
+ 1372  service watchdog status
+ 1373  pdl
+ 1374  python crop_faces_PURE.py 
+ 1375  python images_to_npy_PURE.py 
+ 1376  cd 2_0_Deid/
+ 1377  python images_to_npy_PURE.py 
+ 1378  pdl 
+ 1379  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.04 0
+ 1380  python 2D_autoenc.py ./configs/autoid_pure_2D.ini pure 1 -0.04 0 trydeid
+ 1381  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.04 0 trydeid
+ 1382  python 2D_autoenc.py ./configs/autoid_pure_2D.ini pure 1 -0.04 0 trydeid
+ 1383  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.04 0 trydeid
+ 1384  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.02 0 trydeid
+ 1385  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.02 0 trydeid
+ 1386  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 10 -0.02 0 trydeid
+ 1387  ython 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.02 0 trydeid
+ 1388  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.02 0 trydeid
+ 1389  sudo nano watchdog.conf 
+ 1390  cd default/
+ 1391  sudo nano watchdog 
+ 1392  service watchdog status
+ 1393  pdl
+ 1394  python flat_loss_exp.py 
+ 1395  pdl
+ 1396  python 2D_autoenc.py ce 1 0 0 ./configs/autoid_pure_2D_onlyrec.ini 
+ 1397  python 2D_autoenc.py ./configs/autoid_pure_2D_onlyrec.ini ce 1 0 0
+ 1398  python 2D_autoenc.py ./configs/autoid_pure_2D_onlyrec.ini ce 1 0 0 l2
+ 1399  python 2D_autoenc.py ./configs/autoid_pure_2D_onlyrec.ini ce 1 -0.04 0 l2
+ 1400  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.04 0 l2
+ 1401  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -0.04 0 l2
+ 1402  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -1  0 l2
+ 1403  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.2  0 l2
+ 1404  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -0.2  0 l2
+ 1405  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -0.4  0 l2
+ 1406  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -0.3  0 l2
+ 1407  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -0.5  0 l2
+ 1408  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -1  0 l2
+ 1409  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.2  0 l2
+ 1410  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 l2
+ 1411  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.05  0 l2
+ 1412  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.02  0 l2
+ 1413  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 10 -0.2  0 l2
+ 1414  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 10 -0.2  0 l2avg
+ 1415  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 5 -0.2  0 l2avg
+ 1416  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 5 -0.1  0 l2avg
+ 1417  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.1  0 l2avg
+ 1418  gpusshfs
+ 1419  gpusshfs_HDD 
+ 1420  pdl
+ 1421  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.1  0 l2avg
+ 1422  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.1  0 l2avg
+ 1423  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.1  0 l2avg
+ 1424  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.1  0 l2avg
+ 1425  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 2 -0.1  0 l2avg
+ 1426  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 0.5 -0.1  0 l2avg
+ 1427  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 l2avg
+ 1428  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 l5
+ 1429  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 l4
+ 1430  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 10 -0.1  0 l4
+ 1431  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 l4
+ 1432  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 ssim
+ 1433  ython 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 0  0 ssim
+ 1434  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 0  0 ssim
+ 1435  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 ssim
+ 1436  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0.1 ssim
+ 1437  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  -1 ssim
+ 1438  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  -0.2 ssim
+ 1439  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  -0.1 ssim
+ 1440  history 
+ 1441  tar cvfz 3deid.tar.gz 3_0_Deid/
+ 1442  history 
+ 1443  scp 3deid.tar.gz  "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace"
+ 1444  pdl
+ 1445  python train_CHROM_pure.py 
+ 1446  gpustat
+ 1447  gpusshfs
+ 1448  pdl
+ 1449  python 2D_autoenc.py ./configs/autoid_pure_2D.ini ce 1 -0.1  0 test
+ 1450  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1  0 test
+ 1451  gpusshfs
+ 1452  pdl
+ 1453  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0 
+ 1454  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0 test
+ 1455  gpusshfs
+ 1456  cp 2_0_Deid/PURE_cropped_faces/ 3_0_Deid/
+ 1457  cp - 2_0_Deid/PURE_cropped_faces/ 3_0_Deid/
+ 1458  cp -r 2_0_Deid/PURE_cropped_faces/ 3_0_Deid/
+ 1459  cd 3_0_Deid/
+ 1460  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0 test
+ 1461  pdl
+ 1462  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0 test
+ 1463  python 3D_autoenc.py ./configs/autoid_pure_3D.ini 1 -0.1 0 test
+ 1464  gpusshfs
+ 1465  gpusshfs
+ 1466  history 
+ 1467  geidt
+ 1468  gedit
+ 1469  history 
+ 1470  python
+ 1471  tar cvfz 3deid.tar.gz 3_0_Deid/
+ 1472  gpusshfs
+ 1473  time
+ 1474  date 
+ 1475  gpustat
+ 1476  sudo chmod +x 
+ 1477  sudo chmod +x gpu_logger.sh 
+ 1478  ./gpu_logger.sh 
+ 1479  gpu_logger.sh
+ 1480  gedit gpu_logger.sh
+ 1481  history 
+ 1482  pdl
+ 1483  python train_physformer.py pure
+ 1484  pdl
+ 1485  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.2 0 test
+ 1486  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0 test
+ 1487  gpusshfs
+ 1488  gpusshfs
+ 1489  pdl
+ 1490  history 
+ 1491  sudo chmod +x test_2D.sh 
+ 1492  chmod +x test_2D.sh 
+ 1493  screen -S gpu
+ 1494  gedit test_2D.sh
+ 1495  gpustat
+ 1496  gpusshfs
+ 1497  screen -r
+ 1498  gpusshfs
+ 1499  cp PURE_cropped/ 2_0_Deid/
+ 1500  cp -r PURE_cropped/ 2_0_Deid/
+ 1501  cd 2_0_Deid/
+ 1502  python images_to_npy_PURE.py 
+ 1503  pdl
+ 1504  python images_to_npy_PURE.py 
+ 1505  cd ..
+ 1506  cp 2_0_Deid/PURE_cropped/ 3_0_Deid/
+ 1507  cp -r  2_0_Deid/PURE_cropped/ 3_0_Deid/
+ 1508  cd 3_0_Deid/
+ 1509  python create_rppg_folds_blocks_PURE.py 
+ 1510  python 3D_autoenc.py ./configs/autoid_pure_3D.ini 1 -0.1 0 test
+ 1511  gpusshfs
+ 1512  history 
+ 1513  tar cvfz pure_cropped.tar.gz PURE_cropped
+ 1514  gpusshfs
+ 1515  pdl
+ 1516  python test_2D_autoenc.py 
+ 1517  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini 
+ 1518  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0.1 
+ 1519  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0.1 test
+ 1520  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0.9 test
+ 1521  python test_2D_autoenc.py ./configs/autoid_pure_2D.ini 1 -0.1 0.5 test
+ 1522  python test_physformer_30s.py pure
+ 1523  pdl
+ 1524  python train_CHROM_pure.py 
+ 1525  python try_CHROM_PURE.py 
+ 1526  gpusshfs
+ 1527  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 testWholeIMG
+ 1528  pdl
+ 1529  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 testWholeIMG
+ 1530  python test_physformer_30s.py 
+ 1531  python test_physformer_30s.py pure
+ 1532  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.2 0.5 testWholeIMG
+ 1533  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0 0.5 testWholeIMG
+ 1534  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.2 0.5 testWholeIMG
+ 1535  cd ..
+ 1536  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.2 0.5 testWholeIMG
+ 1537  cd 3_0_Deid/
+ 1538  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.2 0.5 testWholeIMG
+ 1539  gpusshfs_HDD 
+ 1540  pdl
+ 1541  python create_landmarks_OBF.py 
+ 1542  cd 2_0_Deid/
+ 1543  python try_CHROM_PURE.py 
+ 1544  pdl
+ 1545  python try_CHROM_PURE.py 
+ 1546  gpusshfs_HDD 
+ 1547  pdl
+ 1548  python try_CHROM_PURE.py 
+ 1549  cd ..
+ 1550  cd 3_0_Deid/
+ 1551  ls
+ 1552  ptyhon test_physformer_30s.py 
+ 1553  python test_physformer_30s.py 
+ 1554  python test_physformer_30s.py pure
+ 1555  gpusshfs
+ 1556  gpusshfs_HDD 
+ 1557  gpusshfs_HDD 
+ 1558  ping 8.8.8.8
+ 1559  gpusshfs
+ 1560  gpusshfs_HDD 
+ 1561  pdl
+ 1562  python crop_faces_OBF.py 0
+ 1563  pdl
+ 1564  python create_landmarks_OBF.py 0
+ 1565  pip install imutils
+ 1566  python create_landmarks_OBF.py 0
+ 1567  gpusshfs_HDD 
+ 1568  gpusshfs
+ 1569  gpusshfs_HDD 
+ 1570  pdl
+ 1571  history 
+ 1572  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 testWholeIMG
+ 1573  gpusshfs
+ 1574  gpusshfs_HDD 
+ 1575  history 
+ 1576  pdl
+ 1577  python create_landmarks_OBF.py 
+ 1578  python create_landmarks_OBF.py  0
+ 1579  python crop_faces_OBF.py 
+ 1580  python crop_faces_OBF.py 0
+ 1581  python create_landmarks_OBF.py 
+ 1582  python create_landmarks_OBF.py 0
+ 1583  python crop_faces_OBF.py 0
+ 1584  python create_landmarks_OBF.py 0
+ 1585  python images_to_npy_OBF.py 
+ 1586  find /PURE_cropped_faces/ \( ! -name "*.txt" \) -type f 
+ 1587  find /PURE_cropped_faces \( ! -name "*.txt" \) -type f 
+ 1588  find /media/chiarko/Data/3_0_Deid/PURE_cropped_faces/ \( ! -name "*.txt" \) -type f 
+ 1589  find /media/chiarko/Data/3_0_Deid/PURE_cropped_faces/ \( ! -name "*.png" \) -type f 
+ 1590  find /media/chiarko/Data/3_0_Deid/PURE_cropped_faces/ \( ! -name "*.png" \) -type f | cpio -vdump /media/chiarko/Data/3_0_Deid/PURE_cropped_faces/ciao
+ 1591  history 
+ 1592  python create_rppg_folds_blocks_PURE.py 
+ 1593  pdl
+ 1594  python create_rppg_folds_blocks_PURE.py 
+ 1595  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 testWholeIMG
+ 1596  gpusshfs_HDD 
+ 1597  gpusshfs_HDD
+ 1598  gpusshfs_HDD 
+ 1599  gpusshfs
+ 1600  gpusshfs_HDD
+ 1601  gpusshfs
+ 1602  gpusshfs_HDD 
+ 1603  gpusshfs
+ 1604  sshfs "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace/3_0_Deid/" /home/chiarko/GPU_PC/
+ 1605  scp "marukosan@cse200222.oulu.fi:/mnt/sdb1/Cropped_faces_light/" ./
+ 1606  scp -r "marukosan@cse200222.oulu.fi:/mnt/sdb1/Cropped_faces_light/" ./
+ 1607  scp -r "marukosan@cse200222.oulu.fi:/mnt/sdb1/cropfacepbf.tar.gz" ./
+ 1608  gpusshfs
+ 1609  pdl
+ 1610  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 test
+ 1611  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 0.2 test
+ 1612  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 0.5 test
+ 1613  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 10 test
+ 1614  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 -0.5 test
+ 1615  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.5 -0.1 test
+ 1616  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 -0.1 0.0 -1 test
+ 1617  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0.0  0.5 -1 test
+ 1618  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0.0  0.5 -2 test
+ 1619  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0.0  0.5 2 test
+ 1620  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0.0  0.0 0 test
+ 1621  python train_idnet_3d.py googlenet pure
+ 1622  scp train_idnet_3d.py  "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace" 
+ 1623  history 
+ 1624  tar cvfz purecropfacelight.tar.gz PURE_cropped_faces_light/
+ 1625  history 
+ 1626  gpusshfs_HDD 
+ 1627  history 
+ 1628  tar -xvzf cropfacepbf.tar.gz 
+ 1629  gpusshfs
+ 1630  pdl
+ 1631  python create_rppg_folds_blocks_OBF.py 
+ 1632  python train_idnet_3d.py googlenet obf
+ 1633  python create_rppg_folds_blocks_OBF.py 
+ 1634  python train_idnet_3d.py googlenet obf
+ 1635  python create_rppg_folds_blocks_OBF.py 
+ 1636  python train_idnet_3d.py googlenet obf
+ 1637  python create_rppg_folds_blocks_OBF.py 
+ 1638  python train_idnet_3d.py googlenet obf
+ 1639  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0.0  0.0 0 test
+ 1640  pdl
+ 1641  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0.0  0.0 0 test
+ 1642  gpustat
+ 1643  gpusshfs
+ 1644  gpusshfs_HDD 
+ 1645  sudo apt-get install hto
+ 1646  sudo apt-get install htop
+ 1647  history 
+ 1648  gpusshfs
+ 1649  pdl
+ 1650  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0.0  0.0 0 test
+ 1651  python create_rppg_folds_blocks_OBF.py 
+ 1652  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0.0  0.0 0 test
+ 1653  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0.0  0.5 0 test
+ 1654  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.1  0.5 0 test
+ 1655  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.1  0.7 0 test
+ 1656  history 
+ 1657  scp "marukosan@cse200222.oulu.fi:/mnt/sdb1/obflight.tar.gz" ./
+ 1658  gpusshfs
+ 1659  history 
+ 1660  gpusshfs
+ 1661  gpusshfs_HDD 
+ 1662  gpusshfs
+ 1663  gpusshfs
+ 1664  curl -f https://downloads.surfshark.com/linux/debian-install.sh --output surfshark-install.sh #gets the installation script
+ 1665  cat surfshark-install.sh #shows script's content
+ 1666  sh surfshark-install.sh #installs surfshark
+ 1667  gpusshfs
+ 1668  gpusshfs_HDD 
+ 1669  history 
+ 1670  gpusshfs
+ 1671  gpusshfs_HDD 
+ 1672  tar –xvzf obflight.tar.gz 
+ 1673  tar xvzf obflight.tar.gz 
+ 1674  gpusshfs_HDD 
+ 1675  puhtisshfs 
+ 1676  gedit testlnd.py
+ 1677  gpusshfs_HDD 
+ 1678  gpusshfs
+ 1679  gpusshfs_HDD 
+ 1680  pdl
+ 1681  python
+ 1682  gedit rppg_fig.py
+ 1683  psl
+ 1684  pdl
+ 1685  python rppg_fig.py 
+ 1686  gpusshfs_HDD 
+ 1687  rm -i !(*.npy)
+ 1688  find /media/chiarko/Data/Cropped  -type f -not -name ".npy"
+ 1689  find /media/chiarko/Data/Cropped  -type f -not -name "*.npy"
+ 1690  find /media/chiarko/Data/Cropped  -type f -not -name "*.npy" -delete
+ 1691  find /media/chiarko/Data/Cropped  -type f -not -name "*bvp.npy" -delete
+ 1692  find /media/chiarko/Data/Cropped  -type f -not -name "*bvp.npy" 
+ 1693  find /media/chiarko/Data/Cropped  -type f -not -name "**bvp.npy" 
+ 1694  find /media/chiarko/Data/Cropped  -type f -not -name "*.npy" 
+ 1695  find /media/chiarko/Data/Cropped  -type f -not -name "*" 
+ 1696  find . -type f -not -name '*.gz'
+ 1697  find . -type f -not -name '*bvp.npy'
+ 1698  find . -type f -not -name '*.npy'
+ 1699  find . -type f  -name '*.npy'
+ 1700  find . -empty -type d -delete
+ 1701  pdl
+ 1702  python
+ 1703  gpusshfs
+ 1704  gpusshfs_HDD 
+ 1705  sort completed.txt | uniq -u
+ 1706  cut -c -20 completed.txt 
+ 1707  cut -c -20 completed.txt >> diocane.txt
+ 1708  sort diocane.txt | uniq -u >> orcodio.txt
+ 1709  cut -c -20 completed.txt >> diocane.txt
+ 1710  sort diocane.txt | uniq -u >> orcodio.txt
+ 1711  gedit 
+ 1712  gpusshfs_HDD 
+ 1713  pdl
+ 1714  python load_roc.py 
+ 1715  python load_roc.py '
+ 1716  python load_roc.py 
+ 1717  python load_roc.py '
+ 1718  python load_roc.py 
+ 1719  history 
+ 1720  gpusshfs
+ 1721  scp "marukosan@cse200222.oulu.fi:/mnt/sdb1/DatasetsHR/croptlobf.tar.gz" ./
+ 1722  screen -S ciao
+ 1723  gpusshfs_HDD 
+ 1724  screen -r
+ 1725  gpusshfs
+ 1726  pdl
+ 1727  python load_roc.py 
+ 1728  cd ..
+ 1729  cd 3_0_Deid/
+ 1730  python test_chrom_idnet_3d.py googlenet obf
+ 1731  gpustat
+ 1732  python
+ 1733  pdl
+ 1734  python 
+ 1735  cd ..
+ 1736  python test_chrom_idnet_3d_30s.py 
+ 1737  python test_chrom_idnet_3d_30s.py obf
+ 1738  python test_chrom_idnet_3d_30s.py googlenet obf
+ 1739  gpusshfs
+ 1740  python
+ 1741  gpusshfs
+ 1742  cd ..
+ 1743  cd  etc/
+ 1744  nano watchdog.conf 
+ 1745  cd ..
+ 1746  cd sys/
+ 1747  cd ..
+ 1748  cd sys/log
+ 1749  cd sys
+ 1750  ls
+ 1751  cd --
+ 1752  cd ..
+ 1753  cd var/log/
+ 1754  ls
+ 1755  gedit watchdog/
+ 1756  cd watchdog/
+ 1757  ls
+ 1758  cd ..
+ 1759  history  >> diocan.txt
+ 1760  history  >> hist.txt
+ 1761  cd ..
+ 1762  cd etc/default/
+ 1763  nano watchdog 
+ 1764  gpusshfs
+ 1765  gpusshfs
+ 1766  pdl
+ 1767  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2.0 -0.2 -0.5 0 2dcheck
+ 1768  gpustat
+ 1769  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2.0 -0.2 -0.5 0 2dcheck
+ 1770  gpusshfs
+ 1771  pdl
+ 1772  history 
+ 1773  python create_rppg_folds_blocks_OBF.py 
+ 1774  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0 0.5 0 recon
+ 1775  python create_rppg_folds_blocks_OBF.py 
+ 1776  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0 0.5 0 recon
+ 1777  nvidia-smi
+ 1778  screen -r
+ 1779  tmux 
+ 1780  tmux a
+ 1781  python create_rppg_folds_blocks_OBF.py 
+ 1782  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0 0.5 0 recon
+ 1783  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0 1 0 recon
+ 1784  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0 0 0 recon
+ 1785  python create_rppg_folds_blocks_OBF.py 
+ 1786  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 0 0 0 recon
+ 1787  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0 0 recon
+ 1788  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0 0 idl2
+ 1789  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 20 -0.2 0 0 idl2
+ 1790  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 20 -0.2 1 0 idl2
+ 1791  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 1 0 idl2
+ 1792  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0.5 0 idl2
+ 1793  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0 0 idl2
+ 1794  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0.5 0 idl2
+ 1795  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.1 0.5 0 idl2
+ 1796  python compare_signals.py 
+ 1797  pdl
+ 1798  python compare_signals.py 
+ 1799  gpustat
+ 1800  gpusshfs
+ 1801  pdl
+ 1802  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0.5 0 sismo
+ 1803  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0.5 0 sigmo
+ 1804  python 2D_autoenc.py ./configs/autoid_obf_2D.ini 2 -0.2 0.5 0 tanh
+ 1805  gpusshfs
+ 1806  pdl
+ 1807  python ssim_3D_autoenc.py 
+ 1808  python ssim_3D_autoenc.py ./configs/autoid_obf_3D.ini 
+ 1809  python ssim_3D_autoenc.py ./configs/autoid_obf_3D.ini 2 -0.2 0 0 cazzo
+ 1810  gpusshfs
+ 1811  pdl
+ 1812  python
+ 1813  history 
+ 1814  tar xvf resnet50_pretrained_on_msceleb.pth.tar 
+ 1815  tar vzf resnet50_pretrained_on_msceleb.pth.tar 
+ 1816  tar -cvf resnet50_pretrained_on_msceleb.pth.tar 
+ 1817  cd img_align_celeba/
+ 1818  ls
+ 1819  pdl
+ 1820  python diocane_idnet_3d.py 
+ 1821  history 
+ 1822  tar xvzf vgg_face_torch.tar.gz 
+ 1823  gedit idlabel.py
+ 1824  python idlabel.py 
+ 1825  gpustat
+ 1826  pdl
+ 1827  python celebA_pretrain_idnet.py googlenet
+ 1828  os.environ['CUDA_LAUNCH_BLOCKING'] = "1" python celebA_pretrain_idnet.py googlenet
+ 1829  python celebA_pretrain_idnet.py googlenet
+ 1830  gpusshfs
+ 1831  gpustat
+ 1832  cd img_align_celeba/
+ 1833  ls
+ 1834  python
+ 1835  gpusshfs
+ 1836  cd CelebA
+ 1837  cd CelebA-HQ-img/
+ 1838  ls
+ 1839  pdl
+ 1840  python celebA1k_list.py 
+ 1841  gpusshfs
+ 1842  pdl
+ 1843  python celebA_pretrain_idnet.py 
+ 1844  python celebA_pretrain_idnet.py googlenet
+ 1845  cd celeba/
+ 1846  python celebA1k_list.py 
+ 1847  cd ..
+ 1848  python celebA_pretrain_idnet.py 
+ 1849  python celebA_pretrain_idnet.py googlenet
+ 1850  gpustat
+ 1851  pdl
+ 1852  python idlabel.py 
+ 1853  dc CelebA-HQ-img/
+ 1854  cd CelebA-HQ-img/
+ 1855  ls
+ 1856  cd ..
+ 1857  python map_ids.py 
+ 1858  pdl
+ 1859  python map_ids.py 
+ 1860  pdl
+ 1861  python celebA_pretrain_idnet.py googlenet
+ 1862  pymol
+ 1863  Pymol
+ 1864  pymol
+ 1865  gpusshfs
+ 1866  pdl
+ 1867  python
+ 1868  gpusshfs
+ 1869  gpusss
+ 1870  gpusshfs
+ 1871  pdl
+ 1872  python 2D_autoenc_random.py ./configs/autoid_obf_2D.ini 2 -1 0.5 0 diocane 
+ 1873  python 2D_autoenc_random.py ./configs/autoid_obf_2D.ini 2 1 0.5 0 diocane cos
+ 1874  python 2D_autoenc_GAN.py 
+ 1875  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 0 0.5 0 diocane cos
+ 1876  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 0 0.5 0 gan
+ 1877  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 1 1 1 1 gan
+ 1878  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 1 1 1 gan
+ 1879  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 -0.2 1 0 gan
+ 1880  gpusshfs
+ 1881  pdl
+ 1882  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 -0.2 0.5 0 gan
+ 1883  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 0  0.5 0 gan
+ 1884  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 -0.1  0.5 0 gan
+ 1885  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 2 -0.1  1 0 gan
+ 1886  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 1 -0.1  1 0 gan
+ 1887  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 1 0  1 0 gan
+ 1888  python 2D_autoenc_GAN.py ./configs/autoid_obf_2D.ini 1 -0.1  1 0 gan
+ 1889  gpusshfs
+ 1890  pdl
+ 1891  history 
+ 1892  python 2D_autoenc.py configs/autoid_obf_2D.ini 2 -0.2 0.5 0 aebn
+ 1893  gpusshfs
+ 1894  sudo blueman-manager 
+ 1895  gpusshfs
+ 1896  pdl
+ 1897  python test_physformer_30s.py obf
+ 1898  python test_physformer_30s_pixelation.py.py obf
+ 1899  python test_physformer_30s_pixelation.py obf
+ 1900  gpusshfs
+ 1901  dpl
+ 1902  pdl
+ 1903  python test_chrom_idnet_3d_30s.py obf
+ 1904  python test_chrom_idnet_3d_30s.py googlenet obf
+ 1905  python test_physformer_30s_pixelation.py obf
+ 1906  pdl
+ 1907  python test_physformer_30s_pixelation.py obf
+ 1908  uptime
+ 1909  gpusshfs
+ 1910  pdl
+ 1911  python
+ 1912  pdl
+ 1913  python test_chrom_idnet_3d_30s.py googlenet obf
+ 1914  gpusshfs_HDD 
+ 1915  pdl
+ 1916  python pixelated_test_chrom_idnet_3d_30s.py googlenet obf
+ 1917  python test_physformer_30s_pixelation.py 
+ 1918  python test_physformer_30s_pixelation.py obf
+ 1919  gpusshfs_HDD 
+ 1920  gpusshfs
+ 1921  python
+ 1922  pdl
+ 1923  cd ..
+ 1924  python pixelated_test_chrom_idnet_3d_30s.py obf
+ 1925  python pixelated_test_chrom_idnet_3d_30s.py googlenet obf
+ 1926  pdl
+ 1927  python new_bvp_crop_PURE.py 
+ 1928  pdl
+ 1929  python create_landmarks_PURE.py 
+ 1930  python create_landmarks_PURE_whole.py 
+ 1931  pytohn crop_tight_faces_PURE.py 
+ 1932  python crop_tight_faces_PURE.py 
+ 1933  python create_landmarks_PURE_whole.py 
+ 1934  python crop_tight_faces_PURE.py 
+ 1935  python create_landmarks_PURE_whole.py 
+ 1936  gpusshfs
+ 1937  ccpn 
+ 1938  find . -name "*.png" -type f
+ 1939  find . -name "*.png" -type f -delete
+ 1940  find . -type d -empty
+ 1941  find . -type d -empty -delete
+ 1942  nano ~/.bashrc
+ 1943  pdl
+ 1944  python new_bvp_crop_PURE.py 
+ 1945  python crop_tight_faces_PURE.py 
+ 1946  pdl
+ 1947  python CHROM_PURE.py 
+ 1948  pdl
+ 1949  python images_to_npy_PURE.py 
+ 1950  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0 0 0 aaa
+ 1951  pdl
+ 1952  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0 0 0 aaa
+ 1953  python train_idnet_3d.py googlenet pure
+ 1954  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0 0 0 aaa
+ 1955  python create_rppg_folds_blocks_PURE.py 
+ 1956  python train_idnet_3d.py googlenet pure
+ 1957  python 2D_autoenc.py ./configs/autoid_pure_2D.ini 2 0 0 0 aaa
+ 1958  history 
+ 1959  nano ~/.bashrc
+ 1960  ccpn
+ 1961  gpusshfs
+ 1962  gpusshfs
+ 1963  tar cvzf pure_cropped_tight.tar.gz PURE_cropped_tight/
+ 1964  history 
+ 1965  scp "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace/3_0_Deid/" pure_cropped_tight.tar.gz 
+ 1966  scp pure_cropped_tight.tar.gz "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace/3_0_Deid/"
+ 1967  gpusshfs
+ 1968  pdl
+ 1969  python pixelated_test_chrom_idnet_3d_30s.py googlenet pure
+ 1970  /media/chiarko/Data/3_0_Deid/test_physformer_30s_pixelation.py pure
+ 1971  python test_physformer_30s_pixelation.py pure
+ 1972  python pixelated_test_chrom_idnet_3d_30s.py googlenet pure
+ 1973  gpusshfs
+ 1974  cd Workspace/
+ 1975  cd ..
+ 1976  scp "marukosan@cse200222.oulu.fi:/home/marukosan/Workspace/3_0_Deid/Physformer_pure.pt" /media/chiarko/Data/3_0_Deid
+ 1977  gpusshfs
+ 1978  pdl
+ 1979  python pixelated_test_chrom_idnet_3d_30s.py googlenet pure
+ 1980  python pixelated_test_chrom_idnet_3d_30s.py googlenet obf
+ 1981  python pixelated_test_chrom_idnet_3d_30s.py googlenet pure
+ 1982  python test_physformer_30s_pixelation.py pure
+ 1983  gpusshfs
+ 1984  pdl
+ 1985  python pixelated_test_pos_idnet_3d_30s.py googlenet pure
+ 1986  gpusshfs
+ 1987  gpus
+ 1988  gpusshfs
+ 1989  gpuss
+ 1990  gpusshfs
+ 1991  remm
+ 1992  gpusshfs
+ 1993  gpusshfss
+ 1994  gpusshfs
+ 1995  history 
+ 1996  history  >> ciaone.txt
